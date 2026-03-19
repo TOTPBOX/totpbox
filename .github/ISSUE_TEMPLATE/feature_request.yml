@@ -1,5 +1,5 @@
 name: Feature Request
-about: Suggest a new feature or improvement for TOTPBOX
+description: Suggest a new feature or improvement for TOTPBOX
 title: "[FEAT] "
 labels: ["enhancement", "needs-triage"]
 assignees: []
@@ -40,10 +40,8 @@ body:
     attributes:
       label: Area
       options:
-        - API / SDK
         - Web App
-        - Mobile (iOS)
-        - Mobile (Android)
+        - API / SDK
         - Documentation
         - Security
         - Other
@@ -63,5 +61,5 @@ body:
     attributes:
       label: Checklist
       options:
-        - label: I have searched existing issues and this feature hasn't been requested yet
+        - label: I have searched existing issues and this feature has not been requested yet
           required: true
