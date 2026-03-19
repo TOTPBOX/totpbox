@@ -1,5 +1,5 @@
 name: Bug Report
-about: Report a bug or unexpected behavior in TOTPBOX
+description: Report a bug or unexpected behavior in TOTPBOX
 title: "[BUG] "
 labels: ["bug", "needs-triage"]
 assignees: []
@@ -26,7 +26,7 @@ body:
       description: Step-by-step instructions to reproduce the behavior.
       placeholder: |
         1. Go to '...'
-        2. Call '...'
+        2. Do '...'
         3. See error
     validations:
       required: true
@@ -61,8 +61,6 @@ body:
       label: Platform
       options:
         - Web
-        - iOS
-        - Android
         - API / SDK
         - Other
     validations:
